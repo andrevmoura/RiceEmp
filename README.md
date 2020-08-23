@@ -1,6 +1,7 @@
 Repositório destinado para o projeto da disciplina de Engenharia de Software da UFLA/2020
 
-##Desenvolvedor##
+## Desenvolvedor ##
+
 André V. M. T. Sousa
 
 # Descrição do produto #
