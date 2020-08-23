@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN'
+    'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+
+<head>
+    <title>Estocar arroz</title>
+    <meta charset = 'UTF-8'>
+    <meta http-equiv='content-type' content='text/html;charset=utf-8' />
+    <link rel = 'stylesheet' href = 'CSS/style.css'>
+</head>
+
+<body>
+    <div class='formulario'>  
+    <form id = 'cadastro' action = '../Control/Estoca_Arroz.php' method='post'>
+        <h3>Estocar Arroz</h3>
+        <fieldset>
+            <label> Tipo do arroz: </label>
+            <input name='tipo' placeholder = 'Tipo do arroz' type = 'text' maxlength = '40' required autofocus>
+        </fieldset>
+        
+        <fieldset>
+            <label> Quantidade de Arroz: </label>
+            <input name='quantidade' placeholder = 'Quantidade de arroz' type = 'text' required>
+        </fieldset>
+        
+        <fieldset>
+            <label> Data de armazenamento: </label>
+            <input name='data' type = 'date' required>
+        </fieldset>
+        
+        <fieldset>
+            <label> Valor por Saca: </label>
+            <input name='valor' type = 'text' required>
+        </fieldset>
+        
+        <fieldset>
+            <button name = 'submit' type = 'submit'>Estocar Arroz</button>
+        </fieldset>
+        
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #000;
+    /*background-image: url('imagem/teste.jpg');*/
+    background-color: gray;
+    
+}
+
+.imagem1{
+    background-image: url('imagem/teste.jpg') no-repeat;
+}
+
+.formulario {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+#cadastro input[type="password"],
+#cadastro input[type="text"],
+#cadastro input[type="email"],
+#cadastro input[type="tel"],
+#cadastro input[type="url"],
+#cadastro textarea,
+#cadastro button[type="submit"],
+#cadastro button[type="button"],
+#cadastro button[type="reset"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#cadastro {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#cadastro h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#cadastro h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#cadastro input[type="password"],
+#cadastro input[type="text"],
+#cadastro input[type="email"],
+#cadastro input[type="tel"],
+#cadastro input[type="url"],
+#cadastro textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#cadastro input[type="password"]:hover,
+#cadastro input[type="text"]:hover,
+#cadastro input[type="email"]:hover,
+#cadastro input[type="tel"]:hover,
+#cadastro input[type="url"]:hover,
+#cadastro textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#cadastro textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#cadastro button[type="submit"],
+#cadastro button[type="button"],
+#cadastro button[type="reset"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#cadastro button[type="submit"]:hover,
+#cadastro button[type="button"]:hover,
+#cadastro button[type="reset"]:hover {
+    background: #43A047;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#cadastro button[type="submit"]:active,
+#cadastro button[type="button"]:active,
+#cadastro button[type="reset"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+    text-align: center;
+}
+
+#cadastro input:focus,
+#cadastro textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+.labels {
+    font-family: Arial;
+    font-size: 15px;
+    color: black;
+}
+
+.radios {
+    vertical-align: text-bottom;
+}
+
+.sendfile {
+    font-size: 12px;
+    font-family: Arial;
+    color: blue;
+}
+
+.inputbusca {
+    background-color: white;
+    font-size: 15px;
+    font-family: Arial;
+    margin-top: 25;
+}
+
+.btninicial {
+    background-color: lightgreen;
+    color: white;
+    width: 100px;
+    height: 22px;
+    font-size: 15px;
+    font-family: Arial;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.btninicial:hover {
+    background: #43A047;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.tabela {
+    background-color: lightgray;
+    text-align: center;
+    margin-right: auto; 
+    margin-left: auto;
+    width: 600px;
+    font-size: 14px;
+    
+}
+
+.telainicial {
+    background-color: rgb(180, 90, 54);
+    width: 630px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150;
+    position: relative;
+    
+    
+}
+
+.btneditar {
+    background-color: rgb(216, 15, 15);
+    color: white;
+    border: 0;
+    width: 60px;
+    height: 28px;
+    text-align: center;
+}
+
+.botaotabela {
+    text-align: center;
+    margin: 0 0 0 0;
+    background: black;
+
+}
+
+.cabecalhoinicial {
+    font-size: 16px;
+}
+
+.divQuantidades {
+    font-size: 17px;
+    font-family: Arial;
+    margin-left: 40px;
+    
+}

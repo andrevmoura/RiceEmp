@@ -1,0 +1,43 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<title>RiceEmp</title>
+<meta charset = "UTF-8">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="generator" content="Bluefish 2.2.7" />
+<link rel = "stylesheet" href = "CSS/style.css">
+</head>
+
+<body>
+<div class="formulario">  
+    <form id = "cadastro" action = "../Control/Cliente_Log.php" method="post">
+        <h3>Login</h3>
+        <fieldset>
+            <label> Nome de usuário: </label>
+            <input name="usuario" placeholder = "username" type = "text" maxlength = "40" required autofocus>
+        </fieldset>
+        
+        <fieldset>
+            <label> Senha: </label>
+            <input name="senha" placeholder = "password" type = "password" required>
+        </fieldset>
+            
+        
+        <fieldset>
+            <button name = "submit" type = "submit">Login</button>
+        </fieldset>
+        
+        <fieldset>
+            <a href="CadastroCliente.html"><button name = "submit" type = "button">Registrar</button></a>
+        </fieldset>
+        <fieldset>
+             <a href="../index.html"><button name = "submit" type = "button">Voltar para a página inicial</button></a>
+        </fieldset>
+    </form>
+</div>
+</body>
+
+</html>
